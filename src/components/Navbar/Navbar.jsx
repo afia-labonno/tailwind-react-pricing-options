@@ -1,0 +1,55 @@
+import React from 'react';
+import Links from './Links';
+
+const navLinks = [
+    {
+        name: "Home",
+        path: "/"
+    },
+    {
+        name: "About",
+        path: "/about"
+    },
+    {
+        name: "Services",
+        path: "/services"
+    },
+    {
+        name: "Blog",
+        path: "/blog"
+    },
+    {
+        name: "Contact",
+        path: "/contact"
+    }
+];
+
+
+const Navbar = () => {
+    return (
+        <nav>
+
+            <ul className='flex'>
+                {
+                    navLinks.map(route => <Links key={route.id} route={route}></Links>)
+                }
+            </ul>
+
+            {/* <ul className='flex'>
+                {
+                    navLinks.map(route =><li className='mr-10'>
+                        <a href={route.path}>{route.name}</a>
+                        </li>)
+                }
+            </ul> */}
+
+            {/* <ul className='flex'>
+                <li className='mr-10'><a href="/">Home</a></li>
+                <li className='mr-10'><a href="/about">About</a></li>
+                <li className='mr-10'><a href="/blog">Blog</a></li>
+            </ul> */}
+        </nav>
+    );
+};
+
+export default Navbar;
