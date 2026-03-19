@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 1000,
+    "popular": true,
+    "duration": "Monthly",
+    "description": "Good for beginners who want essential access.",
+    "features": [
+      "Access to all gym equipment",
+      "Locker facility",
+      "Cardio section access",
+      "Open gym hours (6AM - 10PM)",
+      "Free Wi-Fi",
+      "Drinking water facility",
+      "Basic fitness assessment",
+      "Mobile app access"
+    ],
+    "isPopular": false
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 1800,
+    "duration": "Monthly",
+    "description": "Perfect for regular users who want guidance.",
+    "features": [
+      "All Basic features",
+      "Personal trainer (3 days/week)",
+      "Group classes (Yoga / Zumba)",
+      "Basic diet plan",
+      "Progress tracking",
+      "Body composition analysis",
+      "Priority support",
+      "Weekend special classes"
+    ],
+    "isPopular": true
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 3000,
+    "duration": "Monthly",
+    "description": "Best for advanced users and full transformation.",
+    "features": [
+      "All Standard features",
+      "Daily personal trainer",
+      "Custom diet & workout plan",
+      "24/7 access",
+      "Steam & sauna",
+      "Supplement guidance",
+      "Injury prevention support"
+    ],
+    "isPopular": false
+  }
+]
